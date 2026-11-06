@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="{{ asset('themes/techtrac/assets/css/lov-port.css') }}?v=3.0.1">
 {!! hook_output('ClientAreaHeadOutput',['user'=>auth()->user()]) !!}
 <link rel="stylesheet" href="{{ asset('themes/techtrac/assets/css/lov-reference-heroes.css') }}?v=3.1.0">
-</head><body style="margin:0;background:#050912"><!-- TechTrac marketing navbar 3.0.1 -->
+<link rel="stylesheet" href="{{ asset('themes/techtrac/assets/css/site-alignment.css') }}?v=20261106-1">
+</head><body class="tt-site-theme" style="margin:0;background:#050912"><!-- TechTrac marketing navbar 3.0.1 -->
 <a class="lo-skip" href="#lo-main">Skip to content</a>
 @include('ttlov.nav')
 <main class="lov" id="lo-main">@yield('content')</main>

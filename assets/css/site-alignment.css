@@ -1,0 +1,28 @@
+/* TechTrac shared client and marketing alignment */
+body[data-tt-client-theme="techtrac"],body.tt-site-theme{--primary:#18bee8;--primary-light:rgba(24,190,232,.10);--primary-dark:#59ddec;--bg:#050a13;--card:#091420;--text:#e6e9ef;--muted:#95a5b8;--border:#283747;background:var(--bg)!important;color:var(--text)!important}
+body[data-tt-client-theme="techtrac"] .pn-main{max-width:1200px;padding:40px 24px 64px;min-width:0}
+body[data-tt-client-theme="techtrac"] .pn-navbar-inner{max-width:1200px;padding-inline:24px}
+body[data-tt-client-theme="techtrac"] .pn-card,body[data-tt-client-theme="techtrac"] .pn-msg{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:16px}
+body[data-tt-client-theme="techtrac"] .pn-card-body-flush{padding:0}
+body[data-tt-client-theme="techtrac"] .pn-product-card,body.tt-site-theme .lo-plan{border:1px solid #1bb9df!important;border-radius:16px;box-shadow:0 16px 36px rgba(0,190,235,.12)}
+body[data-tt-client-theme="techtrac"] .btn,body.tt-site-theme .lo-btn{border-radius:8px!important;letter-spacing:normal!important;text-transform:none!important;text-decoration:none!important}
+body[data-tt-client-theme="techtrac"] .btn-primary,body[data-tt-client-theme="techtrac"] .btn-accent,body.tt-site-theme .lo-btn:not(.lo-btn--ghost){background:linear-gradient(110deg,#08b6e7,#63dfed)!important;border:1px solid transparent!important;color:#04111c!important;box-shadow:none!important}
+body[data-tt-client-theme="techtrac"] .pn-dropdown form button[type="submit"]{background:transparent!important;border:0!important;box-shadow:none!important;color:#fda4af!important;text-transform:none!important;letter-spacing:normal!important;font-size:13px!important}
+body[data-tt-client-theme="techtrac"] .pn-table{width:100%;border-collapse:separate;border-spacing:0;font-family:inherit}
+body[data-tt-client-theme="techtrac"] .pn-table th{padding:15px 18px;background:#07101b!important;color:#9bafc3;font-family:inherit!important;font-size:11px;letter-spacing:.06em;text-align:start}
+body[data-tt-client-theme="techtrac"] .pn-table td{padding:18px;background:#091420;color:#e6e9ef;border-color:#223244!important;line-height:1.6}
+body[data-tt-client-theme="techtrac"] .pn-table tbody tr:hover td,body[data-tt-client-theme="techtrac"] .pn-table tbody tr:focus-within td{background:#0d1c2b!important}
+body[data-tt-client-theme="techtrac"] .form-group{min-width:0;margin-bottom:22px}
+body[data-tt-client-theme="techtrac"] .form-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+body[data-tt-client-theme="techtrac"] :is(.form-label,.pn-label){display:block;margin-bottom:8px;color:#dce5ef;font-size:13px;font-weight:600}
+body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input){width:100%;max-width:100%;min-width:0;min-height:46px;padding:12px 14px;background:#07101b!important;border:1px solid #33475c!important;border-radius:9px;color:#e6e9ef!important;font:inherit;color-scheme:dark}
+body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input):focus{outline:2px solid transparent;border-color:#18bee8!important;box-shadow:0 0 0 3px rgba(24,190,232,.16)}
+body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input)::placeholder{color:#8b9caf;opacity:1}
+body[data-tt-client-theme="techtrac"] textarea:is(.form-control,.pn-input){min-height:150px;resize:vertical}
+body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input):disabled{background:#101a27!important;color:#8b9caf!important;cursor:not-allowed}
+body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input).is-invalid,body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input)[aria-invalid="true"]{border-color:#fb7185!important}
+body[data-tt-client-theme="techtrac"] .invalid-feedback{color:#fda4af;font-size:12px;margin-top:7px}
+body[data-tt-client-theme="techtrac"] .form-hint{color:#95a5b8;font-size:12px;line-height:1.6}
+body[data-tt-client-theme="techtrac"] .pn-main :is(input[type="checkbox"],input[type="radio"]){accent-color:#18bee8}
+body[data-tt-client-theme="techtrac"] a:focus-visible,body[data-tt-client-theme="techtrac"] button:focus-visible,body.tt-site-theme a:focus-visible,body.tt-site-theme button:focus-visible{outline:2px solid #18bee8;outline-offset:3px}
+@media(max-width:640px){body[data-tt-client-theme="techtrac"] .pn-main{padding:28px 16px 48px}body[data-tt-client-theme="techtrac"] .form-grid-2{grid-template-columns:minmax(0,1fr)}body[data-tt-client-theme="techtrac"] :is(.form-control,.pn-input){font-size:16px}body[data-tt-client-theme="techtrac"] .pn-table th,body[data-tt-client-theme="techtrac"] .pn-table td{padding:14px}}
