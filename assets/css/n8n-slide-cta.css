@@ -1,0 +1,117 @@
+/* n8n per-slide CTAs 1.0.1. Existing images/timer remain unchanged. */
+.n8h-hero .n8h-image-box{display:flex;align-items:center;justify-content:center}
+.n8h-hero .n8h-artboard{position:relative;flex:0 1 752.5px;width:752.5px;max-width:100%;height:100%;min-width:0}
+.n8h-hero .n8h-artboard>picture{display:block;width:100%;height:100%}
+.n8h-hero .n8h-artboard>picture>img{display:block;width:100%;height:100%;object-fit:contain}
+.n8h-hero .n8h-slide-cta{position:absolute;top:71%;left:7.2%;right:47%;z-index:2;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.lov .n8h-slide-cta .lo-btn,.lov .n8h-mobile-cta .lo-btn{min-height:44px;padding:9px 12px;font-size:11px;line-height:1.4;white-space:normal;text-align:center}
+.n8h-hero .n8h-mobile-cta{display:none}
+.n8h-hero .n8h-slide-cta a:focus-visible,.n8h-hero .n8h-mobile-cta a:focus-visible{outline:3px solid #6de2f1;outline-offset:4px}
+@media(max-width:800px){
+ .n8h-hero .n8h-artboard{width:100%;flex:1 1 auto}
+ .n8h-hero .n8h-slide-cta{display:none}
+ .n8h-hero .n8h-mobile-cta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:16px}
+ .n8h-hero .n8h-caption{min-height:210px}
+ .lov .n8h-mobile-cta .lo-btn{font-size:12px;padding:10px 14px}
+}
+
+/* n8n equal-width slide frames 1.0.2. Append after n8n-slide-cta.css. */
+.lov .n8h-hero{width:100%;max-width:100%;min-width:0;box-sizing:border-box}
+.lov .n8h-hero .n8h-wrap{width:100%;max-width:1200px;min-width:0;margin-left:auto;margin-right:auto;box-sizing:border-box}
+.lov .n8h-hero [data-n8h-slide]{width:100%;max-width:100%;min-width:0;margin-left:0;margin-right:0;box-sizing:border-box}
+.lov .n8h-hero .n8h-image-box{display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;min-width:0;height:420px;box-sizing:border-box}
+.lov .n8h-hero .n8h-artboard{position:relative;flex:0 0 auto;width:752.5px;max-width:100%;min-width:0;height:100%;box-sizing:border-box}
+.lov .n8h-hero .n8h-image-box>picture,.lov .n8h-hero .n8h-artboard>picture{display:block;width:100%;max-width:100%;height:100%;box-sizing:border-box}
+.lov .n8h-hero .n8h-image-box img{display:block;width:100%;max-width:100%;height:100%;object-fit:contain;object-position:center;box-sizing:border-box}
+.lov .n8h-hero [data-n8h-slide][hidden]{display:none!important}
+@media(max-width:800px){
+ .lov .n8h-hero .n8h-image-box{height:clamp(180px,52vw,260px)}
+ .lov .n8h-hero .n8h-artboard{flex:0 0 100%;width:100%;max-width:100%;height:100%}
+ .lov .n8h-hero .n8h-caption{width:100%;max-width:100%;box-sizing:border-box}
+}
+
+/* n8n frame matches the image canvas; includes 20px wrapper padding per side. */
+.lov .n8h-hero .n8h-wrap{
+ width:100%;
+ max-width:792.5px;
+ margin-left:auto;
+ margin-right:auto;
+ padding-left:20px;
+ padding-right:20px;
+ box-sizing:border-box;
+}
+.lov .n8h-hero [data-n8h-slide]{
+ width:100%;
+ max-width:100%;
+ margin-left:0;
+ margin-right:0;
+ box-sizing:border-box;
+}
+.lov .n8h-hero .n8h-image-box{
+ width:100%;
+ max-width:100%;
+}
+.lov .n8h-hero .n8h-artboard{
+ flex:0 0 100%;
+ width:100%;
+ max-width:100%;
+ min-width:0;
+}
+
+/* n8n frame matches the image canvas; includes 20px wrapper padding per side. */
+.lov .n8h-hero .n8h-wrap{
+ width:100%;
+ max-width:792.5px;
+ margin-left:auto;
+ margin-right:auto;
+ padding-left:20px;
+ padding-right:20px;
+ box-sizing:border-box;
+}
+.lov .n8h-hero [data-n8h-slide]{
+ width:100%;
+ max-width:100%;
+ margin-left:0;
+ margin-right:0;
+ box-sizing:border-box;
+}
+.lov .n8h-hero .n8h-image-box{
+ width:100%;
+ max-width:100%;
+}
+.lov .n8h-hero .n8h-artboard{
+ flex:0 0 100%;
+ width:100%;
+ max-width:100%;
+ min-width:0;
+}
+
+/* n8n hero: 1050px slide and matching image canvas */
+.lov .n8h-hero .n8h-wrap {
+    width: 100%;
+    max-width: 1090px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.lov .n8h-hero [data-n8h-slide] {
+    width: 100%;
+    max-width: 1050px;
+    box-sizing: border-box;
+}
+
+.lov .n8h-hero .n8h-image-box {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1376 / 768;
+}
+
+.lov .n8h-hero .n8h-artboard {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}

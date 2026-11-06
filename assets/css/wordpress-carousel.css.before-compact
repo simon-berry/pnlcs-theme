@@ -1,0 +1,44 @@
+/* WordPress uploaded-image carousel 1.1.0. Full artwork, no cropping. */
+.lov .wp-media-hero{padding:0;background:var(--lo-bg,#050912);overflow:hidden}.lov .wp-media-hero::before{display:none}.lov .wp-media-hero .wp-carousel-inner{max-width:1440px;padding:16px 20px 20px!important;position:relative}.wp-media-hero .wp-slide{display:block;position:relative;min-height:0!important;aspect-ratio:1935/1080;overflow:hidden;border:1px solid var(--lo-border,#3E4F63);border-radius:16px;background:#050912}.wp-media-hero .wp-slide[hidden]{display:none!important}.wp-picture{position:absolute;inset:0}.wp-picture picture{display:block;width:100%;height:100%}.wp-picture img{display:block;width:100%;height:100%;object-fit:contain}.wp-picture::after{content:'';position:absolute;inset:35% 60% 0 0;background:linear-gradient(to top,rgba(5,9,18,.9),rgba(5,9,18,0));pointer-events:none}.wp-media-hero .wp-slide-copy{position:absolute;left:3.8%;right:65%;bottom:5.5%;z-index:1}.lov .wp-media-hero .lo-kicker{font:500 10px/1.7 'JetBrains Mono',monospace;letter-spacing:.13em;color:#6de2f1;margin:0 0 12px!important}.lov .wp-media-hero .wp-slide h1,.lov .wp-media-hero .wp-slide h2{font:800 clamp(24px,2.4vw,34px)/1.12 Montserrat,system-ui,sans-serif;letter-spacing:-.025em;color:#fff;max-width:none;margin:0!important;text-wrap:balance}.lov .wp-media-hero .lo-lead{font:400 clamp(12px,1.05vw,15px)/1.75 Montserrat,system-ui,sans-serif;color:#e0e6ed;max-width:none;margin:14px 0 0!important}.lov .wp-media-hero .lo-actions{margin-top:20px;gap:10px}.lov .wp-media-hero .lo-btn{font-size:12px;padding:10px 16px;min-height:44px}.wp-controls{display:flex;align-items:center;gap:24px;min-height:48px;margin-top:16px;padding-top:16px;border-top:1px solid var(--lo-border,#3E4F63);flex-wrap:wrap}.wp-controls[hidden]{display:none!important}.wp-arrows{display:flex;gap:10px}.wp-arrows button{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:1px solid var(--lo-border,#3E4F63);border-radius:8px;background:var(--lo-surface,#0b1422);color:var(--lo-fg,#e0e6ed);font:20px Montserrat,system-ui,sans-serif;cursor:pointer}.wp-arrows button:hover{border-color:#00bfff;color:#6de2f1}.wp-dots{display:flex;align-items:center;gap:3px}.wp-dots button{display:grid;place-items:center;width:36px;height:44px;padding:0;border:0;background:transparent;cursor:pointer}.wp-dots button::before{content:'';display:block;width:8px;height:8px;border-radius:50%;background:var(--lo-muted,#a7bbce)}.wp-dots button[aria-current=true]::before{width:22px;border-radius:6px;background:#00bfff}.wp-controls button:focus-visible{outline:3px solid #6de2f1;outline-offset:3px}.wp-rotation-note{margin-left:auto;font:10px/1.5 Montserrat,system-ui,sans-serif;color:var(--lo-muted,#a7bbce)}.wp-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.wp-plans{scroll-margin-top:100px}@media(max-width:900px){.wp-media-hero .wp-slide{aspect-ratio:auto}.wp-picture{position:relative;inset:auto;aspect-ratio:1935/1080}.wp-picture::after{display:none}.wp-media-hero .wp-slide-copy{position:static;min-height:310px;padding:26px;background:#050912}.lov .wp-media-hero .wp-slide h1,.lov .wp-media-hero .wp-slide h2{font-size:30px;max-width:650px;text-wrap:initial}.lov .wp-media-hero .lo-lead{font-size:14px;max-width:650px}.lov .wp-media-hero .lo-kicker{font-size:10px}}@media(max-width:480px){.lov .wp-media-hero .wp-carousel-inner{padding:10px 12px 16px!important}.wp-media-hero .wp-slide-copy{padding:22px;min-height:330px}.lov .wp-media-hero .wp-slide h1,.lov .wp-media-hero .wp-slide h2{font-size:28px}.wp-controls{gap:14px}.wp-rotation-note{margin-left:0;width:100%}}@media(prefers-reduced-motion:reduce){.wp-media-hero *{transition:none!important;animation:none!important}}
+
+/* TechTrac compact WordPress hero 1.1.1. Append AFTER existing carousel CSS. */
+.lov .wp-hero .wp-carousel-inner{padding-top:28px!important;padding-bottom:18px!important}
+.lov .wp-hero .wp-slide{min-height:0!important}
+.lov .wp-hero:not(.wp-media-hero) .wp-slide{height:350px;gap:28px;grid-template-columns:minmax(0,1fr) 160px}
+.lov .wp-hero .wp-slide h1,.lov .wp-hero .wp-slide h2{font-size:clamp(28px,3.2vw,42px);line-height:1.1}
+.lov .wp-hero .lo-lead{font-size:15px;line-height:1.7;margin-top:16px!important}
+.lov .wp-hero .lo-actions{margin-top:20px}
+.lov .wp-hero .wp-hero-art{width:160px;height:160px}
+.lov .wp-hero .wp-hero-art svg{width:150px;height:150px}
+.lov .wp-hero .wp-brand-card img{width:92px;height:92px}
+.lov .wp-hero .wp-controls{margin-top:14px;padding-top:12px;min-height:44px}
+/* Uploaded photo slides: fixed-height banner, full image on the right. */
+.lov .wp-media-hero .wp-carousel-inner{padding-top:12px!important}
+.lov .wp-media-hero .wp-slide{height:420px;aspect-ratio:auto}
+.lov .wp-media-hero .wp-picture{position:absolute;top:0;bottom:0;left:36%;right:0;aspect-ratio:auto}
+.lov .wp-media-hero .wp-picture picture{height:100%;width:100%}
+.lov .wp-media-hero .wp-picture img{width:100%;height:100%;object-fit:contain;object-position:center}
+.lov .wp-media-hero .wp-picture::after{display:none}
+.lov .wp-media-hero .wp-slide-copy{position:absolute;left:3%;right:67%;top:50%;bottom:auto;transform:translateY(-50%);padding:0;min-height:0}
+.lov .wp-media-hero .wp-slide h1,.lov .wp-media-hero .wp-slide h2{font-size:clamp(24px,2.3vw,30px);line-height:1.12;text-wrap:balance}
+.lov .wp-media-hero .lo-kicker{font-size:10px;margin-bottom:10px!important}
+.lov .wp-media-hero .lo-lead{font-size:13px;line-height:1.7;margin-top:12px!important}
+.lov .wp-media-hero .lo-actions{margin-top:16px}
+.lov .wp-media-hero .lo-btn{font-size:11px;padding:10px 14px;min-height:44px}
+@media(max-width:900px){
+ .lov .wp-media-hero .wp-slide{height:auto;aspect-ratio:auto}
+ .lov .wp-media-hero .wp-picture{position:relative;inset:auto;height:220px;aspect-ratio:auto}
+ .lov .wp-media-hero .wp-slide-copy{position:static;transform:none;padding:22px;min-height:0}
+ .lov .wp-media-hero .wp-slide h1,.lov .wp-media-hero .wp-slide h2{font-size:28px}
+}
+@media(max-width:650px){
+ .lov .wp-hero:not(.wp-media-hero) .wp-slide{height:auto;grid-template-columns:1fr;gap:20px;padding-bottom:8px}
+ .lov .wp-hero:not(.wp-media-hero) .wp-hero-art{width:88px;height:88px;padding:12px}
+ .lov .wp-hero:not(.wp-media-hero) .wp-hero-art svg{width:88px;height:88px}
+ .lov .wp-hero:not(.wp-media-hero) .wp-brand-card img{width:64px;height:64px}
+ .lov .wp-hero:not(.wp-media-hero) .wp-letter{font-size:60px}
+ .lov .wp-media-hero .wp-picture{height:180px}
+ .lov .wp-media-hero .wp-slide-copy{padding:20px}
+ .lov .wp-media-hero .wp-slide h1,.lov .wp-media-hero .wp-slide h2{font-size:26px}
+ .lov .wp-media-hero .lo-lead{font-size:13px}
+}

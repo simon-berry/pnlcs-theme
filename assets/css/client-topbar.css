@@ -1,0 +1,23 @@
+/* Native client top-bar grouping 1.0.0. No sidebar, no content-area changes. */
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"]{background:#050912!important;border-bottom:1px solid #3E4F63!important;z-index:1000;font-family:Montserrat,system-ui,sans-serif!important}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-navbar-inner{max-width:1600px;gap:8px}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav{flex:1;flex-wrap:nowrap;gap:2px;min-width:0;padding-left:10px;padding-right:10px}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-item{position:relative}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-link{gap:6px;padding:10px 11px;border-radius:8px;font-size:12px;font-weight:600;white-space:nowrap;color:#A7BBCE!important;background:transparent}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-link:is(:hover,.active,[aria-expanded=true]){background:#092433!important;color:#6DE2F1!important}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-chevron{width:12px;height:12px}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-item.open>.pn-nav-link .pn-chevron{transform:rotate(180deg)}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-dropdown{top:100%;min-width:215px;max-width:calc(100vw - 32px);padding:8px;border:1px solid #3E4F63!important;border-radius:10px;background:#0b1422!important;box-shadow:0 18px 45px #0008;z-index:1100}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-dropdown a{display:flex;align-items:center;gap:9px;padding:10px 12px;border-radius:6px;color:#E0E6ED!important;font-size:12px;font-weight:500;line-height:1.6;text-decoration:none}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-dropdown a:is(:hover,:focus-visible){background:#092433!important;color:#6DE2F1!important;text-decoration:none}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-dropdown .sep{height:1px;background:#3E4F63!important;margin:6px 0}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-item:focus-within>.pn-dropdown{display:block}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-item.tt-topbar-dismissed>.pn-dropdown{display:none!important}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-right{gap:8px;margin-left:auto;flex-shrink:0}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-mobile-menu{background:#050912!important;border-color:#3E4F63!important}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-mobile-menu a{font-size:13px;color:#E0E6ED!important}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-mobile-sec{color:#6DE2F1!important}
+body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] :focus-visible{outline:2px solid #6DE2F1;outline-offset:3px}
+/* Native pn-compact/menu breakpoints remain authoritative; never force an overflowing bar. */
+@media(max-width:600px){body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-navbar-inner{padding-left:12px;padding-right:12px}body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-nav-right{gap:6px}}
+@media(prefers-reduced-motion:reduce){body[data-tt-client-brand="1"][data-tt-client-theme="techtrac"] nav.pn-navbar[data-tt-client-topbar="1"] .pn-chevron{transition:none!important}}

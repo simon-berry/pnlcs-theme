@@ -1,0 +1,21 @@
+@extends('ttlov.layouts.marketing')
+@section('title','Our store — TechTrac')
+@section('meta_description','Compare hosting services, search domains and configure your next TechTrac service.')
+@section('styles')
+@parent
+<link rel="stylesheet" href="{{ asset('themes/techtrac/assets/css/theme.css') }}?v=2.0.0">
+<link rel="stylesheet" href="{{ asset('themes/techtrac/assets/css/store.css') }}?v=1.4.0">
+<link rel="stylesheet" href="{{ asset('themes/techtrac/assets/css/store-brand.css') }}?v=1.0.0">
+@endsection
+@section('content')
+<!-- TechTrac public store styling 1.0.0 -->
+<div class="lov-store">
+<section class="lo-hero ls-hero"><div class="lo-wrap"><p class="lo-kicker">TECHTRAC LTD / HOSTING & DIGITAL SERVICES</p><h1>Your next project.<br><span class="lo-gradient">Start with the right service.</span></h1><p class="lo-lead">Compare the resources, search for a domain and configure the service your project needs. Review the full order summary before checkout.</p><div class="lo-actions"><a class="lo-btn" href="{{ route('client.cart.index') }}">View cart</a><a class="lo-btn lo-btn--ghost" href="{{ url('/client/contact') }}">Help choosing a service</a></div></div></section>
+<div class="lo-wrap ls-content"><div class="tt-store ls-inner">
+<div class="ls-service-nav">@include('techtrac.partials.service-nav')</div>
+@if(session('error'))<div class="tt-error ls-error" role="alert">{{ session('error') }}</div>@endif
+<section class="ls-domain" aria-label="Domain search">@include('techtrac.partials.domain-search')</section>
+<section class="ls-products" aria-label="Available services">@include('techtrac.partials.product-cards')</section>
+<aside class="ls-help">@include('techtrac.partials.help')</aside>
+</div></div></div>
+@endsection

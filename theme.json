@@ -1,0 +1,42 @@
+{
+  "name": "TechTrac Circuit",
+  "slug": "techtrac",
+  "version": "1.4.0",
+  "author": "TechTrac LTD",
+  "description": "Complete branded website and store, service pages, linked navigation and OCA catalogue layout. Requires companion application integration for service routes and catalogue loading.",
+  "screenshot": "screenshot.svg",
+  "supports": [
+    "dark-mode",
+    "white-label",
+    "section-builder"
+  ],
+  "colors": {
+    "primary": "#00BFFF",
+    "accent": "#00BFFF",
+    "nav_bg": "#050912",
+    "hero_bg_start": "#050912",
+    "hero_bg_mid": "#050912",
+    "hero_bg_end": "#050912",
+    "welcome_accent": "#6DE2F1",
+    "footer_bg": "#050912"
+  },
+  "dark_colors": {
+    "body_bg": "#050912",
+    "card_bg": "#0b121f",
+    "text_color": "#E0E6ED",
+    "heading_color": "#FFFFFF",
+    "muted_color": "#6DE2F1",
+    "border_color": "#3E4F63",
+    "sidebar_bg": "#0b121f",
+    "sidebar_text": "#E0E6ED",
+    "input_bg": "#050912",
+    "input_border": "#3E4F63",
+    "table_header_bg": "#0b121f",
+    "card_shadow": "rgba(0,0,0,.25)",
+    "overlay_bg": "rgba(5,9,18,.85)"
+  },
+  "fonts": {
+    "primary": "Montserrat",
+    "heading": "Montserrat"
+  }
+}
